@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="MyAgendaPanel"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="01ca0b1a-7cfc-4ae6-a22f-5200131061cc"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

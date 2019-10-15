@@ -1,0 +1,70 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ms-graph-toolkit-agenda-panel-client-side-solution",
+    "id": "e761ed1c-ed30-4203-8d62-fcbf77eaf8be",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Calendars.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Calendars.ReadWrite"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Contacts.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.ReadWrite.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "People.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Tasks.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Tasks.ReadWrite"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read"
+      }
+      ],
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "570f04f9-7d67-4d01-8e10-8de0a0d6a4d2",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "clientsideinstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+ 
+  "paths": {
+    "zippedPackage": "solution/ms-graph-toolkit-agenda-panel.sppkg"
+  }
+}
