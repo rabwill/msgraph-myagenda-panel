@@ -37,15 +37,13 @@ export default class GraphToolkit extends React.Component<IGraphToolkitProps, IG
           isOpen={this.state.showPanel}
           onDismiss={this._hidePanel}
           type={PanelType.medium}
-          headerText="Non-Modal Panel"
+          headerText="Take a look at your events"
           closeButtonAriaLabel="Close"
         >
           <div className={styles.container}>
             <div className={styles.row}>
-
               <mgt-agenda
-                event-query="me/calendar/events"
-              >
+                event-query="me/calendar/events" >
               </mgt-agenda>
             </div>
           </div>
